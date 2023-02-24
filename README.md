@@ -201,7 +201,7 @@ The front end was originally created using [Create React App](https://create-rea
 
 5.  [Optional] To use the local back-end APIs, make sure both servers (front-end and back-end) are running. Then, update ./frontend/src/utils/constants.js by replacing this line:
 
-        export const API_URL = 'http://hangry-api-dev.us-east-1.elasticbeanstalk.com';
+        export const API_URL = 'http://hangryhippo-api.quantic.host';
 
     with this line:
 
@@ -318,4 +318,4 @@ Security testing is implemented in the `frontend` directory using [ZAP](https://
 
 All of the tests are automated into the CI/CD pipeline using [GitHub Actions](https://github.com/features/actions). GitHub Actions are defined in this repository in the `.github/workflows` folder. Feel free to view the automated runs under the [Actions](https://github.com/quasifu/quantic-test-course/actions) tab of this repository.
 
-&copy; 2022 Quantic School of Business and Technology
+&copy; 2023 Quantic School of Business and Technology
